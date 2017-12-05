@@ -10,7 +10,7 @@ pipeline  {
 				}
 			}
 		}
-		stage (Compile Stage){
+		stage (Test Stage){
 			steps {	
 				withMaven(maven : 'maven_3.3.9') {
 					sh 'mvn test'
