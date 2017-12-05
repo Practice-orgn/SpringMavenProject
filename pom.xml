@@ -13,8 +13,7 @@
 		<springframework.version>4.3.1.RELEASE</springframework.version>
 </properties>
   
-  
-  
+    
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
